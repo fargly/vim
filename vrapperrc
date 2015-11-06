@@ -1,0 +1,12 @@
+"        1         2         3         4         5         6         7         8         9         10        11        12        13        14        15
+"234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+
+" VIM Optimization Settings
+inoremap jk <ESC>
+syntax on
+set cul
+"set colorcolumn=80
+highlight ColorColumn ctermbg=darkblue
+call matchadd('ColorColumn', '\%81v', 100)
+
+
